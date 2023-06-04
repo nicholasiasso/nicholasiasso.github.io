@@ -1,0 +1,1 @@
+1. [The Bifurcation Diagram](./pages/bifurcation.html)
