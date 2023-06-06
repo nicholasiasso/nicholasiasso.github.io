@@ -15,7 +15,7 @@ The basis of this fractal is a simple equation, called the logistic map, althoug
 
 $$ x_{n+1} = rx_{n}(1-x_{n}) $$
 
-The logistic map is often explained as a way to model the population of animals over time. $x_{n+1}$ represents the population of a species next year and it is calculated by multiplying some reproduction rate $r$ by the population in the previous year, times one minus the previous population. 
+The logistic map is often explained as a way to model the population of animals over time. \(x_{n+1}\) represents the population of a species next year and it is calculated by multiplying some reproduction rate $r$ by the population in the previous year, times one minus the previous population. 
 
 $rx$ accounts for some large number of organisms reproducing and bringing the population up, fighting against $1-x$, which represents a population running out of resources in it's ecosystem.
 
