@@ -1,5 +1,14 @@
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"> </script> 
 
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
 # The Bifurcation Diagram
 
 Welcome to my first post! I wanted to show the math and code behind the following fractal, called the bifurcation diagram.
@@ -8,7 +17,7 @@ Welcome to my first post! I wanted to show the math and code behind the followin
 
 ## The Logistic Map
 
-The bifurcation diagram is really an illustration of a concept called **Period Doubling**. This is a phenomenon which occurs in nature in countless ways, including the dripping of water, flowing of fluids, electrical circuits, and population sizes.
+The bifurcation diagram is really an illustration of a concept called **Period Doubling**. This is a phenomenon which occurs in nature in countless ways, including the dripping of water from a tap, flowing of fluids, electrical circuits, and population sizes.
 
 
 The basis of this fractal is a simple equation, called the logistic map, although many functions exhibit the same period doubling trait. We'll explore the logistic map here, as it's one of the simplest to understand.
